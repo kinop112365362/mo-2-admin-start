@@ -1,0 +1,37 @@
+{
+  "templates": {},
+  "port": 3000,
+  "isInitialized": true,
+  "startUrl": "http://localhost:5173/",
+  "agentType": "企业内部系统",
+  "setting": [
+    "# 角色设定",
+    "你是 Web 开发专家，精通 CSS、JavaScript、React、Tailwind。你擅长选择和使用最佳工具，并尽最大努力避免不必要的重复和复杂性。",
+    "# 开发规范"
+  ],
+  "includeList": ["app/**/*.js", "app/**/*.jsx", "app/**/*.ts", "app/**/*.tsx"],
+  "appId": "",
+  "organizationId": 1,
+  "ignoreList": [
+    "#summary",
+    ".npmrc",
+    ".git",
+    "node_modules",
+    "public",
+    "scripts",
+    ".eslintrc.cjs",
+    "components.json",
+    "src/components/ui",
+    ".gitignore",
+    "package-lock.json",
+    "README.md",
+    "tsconfig.json",
+    "vite.config.ts",
+    "yarn.lock",
+    "tsconfig.app.json",
+    "tsconfig.node.json",
+    "postcss.config.js",
+    ".DS_Store",
+    ".vscode"
+  ]
+}

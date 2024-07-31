@@ -1,2 +1,4 @@
 import { handlers } from '@/auth';
-export const { GET, POST } = handlers;
+import { authOptions } from './core';
+
+export const { GET, POST } = handlers(authOptions);
